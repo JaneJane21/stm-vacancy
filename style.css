@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;800&display=swap');
+
+h1,
+h2,
+div,
+a,
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    margin: 50px auto;
+}
+body {
+    background-color: #FBEBF9;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo a img {
+    width: 50%;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 9rem;
+    margin: 30px auto;
+    color: rgba(47, 24, 66, 1);
+}
+h2{
+    text-align: center;
+    color: rgba(47, 24, 66, 1);
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-start-page {
+    text-align: center;
+    font-size: 1.2rem;
+}
+.start-page{
+    margin: 70px auto;
+}
+.vacs{
+    margin: 70px auto;
+}
+.btn{
+    color: white;
+    background-color: rgba(47, 24, 66, 1);
+}
+.btn:hover{
+    border: 1px solid rgba(47, 24, 66, 1);
+    color: rgba(47, 24, 66, 1);
+    background-color: #fff;
+}
+.card{
+    margin: 10px;
+}
+.forms{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.input-group{
+    margin: 10px auto;
+}
+
+.input-group-text, .form-control{
+    background-color: #ffffff;
+    border: 1px solid rgba(47, 24, 66, 1);
+    color: rgba(47, 24, 66, 1);
+}
+.file-inp::-webkit-file-upload-button {
+    background:  rgba(47, 24, 66, 1);
+
+    color: rgb(255, 255, 255);
+}
+.inp{
+    margin: 10px auto;
+}
+@media (max-width: 425px) {
+    h1 {
+        font-size: 6rem;
+        margin: 20px auto;
+    }
+    .p-start-page {
+        font-size: 1rem;
+    }
+}
